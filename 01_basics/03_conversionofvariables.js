@@ -45,7 +45,7 @@ let str2 = " hitesh"
 
 let str3 = str1 + str2
 // console.log(str3);
-
+// ========================Type coersion
 // console.log("1" + 2);
 // console.log(1 + "2");
 // console.log("1" + 2 + 2);
@@ -55,7 +55,13 @@ let str3 = str1 + str2
 
 // console.log(+true);
 // console.log(+"aa");
-
+// let x=8
+// let y="aa"-x
+// console.log(y)
+// let x="8"
+// let y=+8 -2 +"12" 
+// console.log(Boolean(y));
+// ==========================================
 let num1= num2= num3=2+2
 
 
