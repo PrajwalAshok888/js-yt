@@ -7,7 +7,7 @@
 // // console.log(`${firstName}${age}`)
 
 // //new way of declaring strins
-let firstName = new String("Prajwal")
+// let firstName = new String("Prajwal")
 // // console.log(firstName)
 // // console.log(firstName.__proto__)
 // // console.log(firstName[3])
@@ -34,7 +34,7 @@ let firstName = new String("Prajwal")
 // console.log(firstName.indexOf('l'))
 // console.log(firstName.padEnd(25,'.'))
 // console.log('Prajwal..................'.length)
-console.log(firstName.match(/[A-Z]/))//matches regular expression
+// console.log(firstName.match(/[A-Z]/))//matches regular expression
 // // =======================repeat()
 // const mood = 'Happy! ';
 
@@ -66,7 +66,7 @@ console.log(firstName.match(/[A-Z]/))//matches regular expression
 // console.log(str.search(re)); // returns 4, which is the index of the first capital letter "J"
 // console.log(str.search(reDot)); // returns -1 cannot find '.' dot punctuation
 // // ======================================slice()
-// const str = 'The quick brown fox jumps over the lazy dog.';
+const str = 'The quick brown fox jumps over the lazy dog.';
 
 // console.log(str.slice(31));
 // // Expected output: "the lazy dog."
@@ -77,7 +77,7 @@ console.log(firstName.match(/[A-Z]/))//matches regular expression
 // console.log(str.slice(-4));
 // // Expected output: "dog."
 
-// console.log(str.slice(-9, -5));
+console.log(str.slice(-9, -8));
 // // Expected output: "lazy"
 // // ====================================split()
 // const words = str.split(' ');
