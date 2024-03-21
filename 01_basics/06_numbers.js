@@ -1,5 +1,5 @@
-const number=new Number(100)
-// console.log(number);
+const number=new Number(1000000)
+console.log(number.toLocaleString('en-IN'));
 // console.log(number.toString().concat(" million"));
 // console.log(number.toExponential());
 // console.log(number.toFixed(2));
