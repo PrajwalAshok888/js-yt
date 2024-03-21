@@ -7,7 +7,7 @@
 // // console.log(`${firstName}${age}`)
 
 // //new way of declaring strins
-// let firstName = new String("Prajwal")
+let firstName = new String("Prajwal")
 // // console.log(firstName)
 // // console.log(firstName.__proto__)
 // // console.log(firstName[3])
@@ -34,7 +34,7 @@
 // console.log(firstName.indexOf('l'))
 // console.log(firstName.padEnd(25,'.'))
 // console.log('Prajwal..................'.length)
-// console.log(firstName.match(/[A-Z]/))//matches regular expression
+console.log(firstName.match(/[A-Z]/))//matches regular expression
 // // =======================repeat()
 // const mood = 'Happy! ';
 
@@ -97,7 +97,7 @@
 // console.log(str1.startsWith('Sat'));
 // // Expected output: true
 
-// console.log(str1.startsWith('S', 4));
+// console.log(str1.startsWith('r', 4));
 // // Expected output: false
 // // =================================substring()
 // const str = 'Mozilla';
