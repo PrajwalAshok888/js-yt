@@ -12,4 +12,5 @@
 let listingPrice=799
 let sellingprice=199
 let discountPercentage=((listingPrice-sellingprice)/listingPrice)*100
-console.log(`${Math.round(discountPercentage)}% OFF`);
+console.log(`${(Math.round(discountPercentage))}% OFF`);
+console.log(`${(discountPercentage).toFixed(2)}% OFF`);
