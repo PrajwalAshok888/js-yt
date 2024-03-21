@@ -1,6 +1,6 @@
 // array
 
-let myArr = [1,3,4,2,5]
+const myArr = [1,3,4,2,5]
 const myHeors = ["shaktiman", "naagraj"]
 // console.log(myArr[5]);
 const myArr2 = new Array(1, 2, 3, 4)
@@ -47,6 +47,6 @@ console.log(myArr);
 // console.log("B ", myArr);
 
 
-// const myn2 = myArr.splice(1, 3)
-// console.log("C ", myArr);
-// console.log(myn2);
+const myn2 = myArr.splice(1, 3)
+console.log("C ", myArr);
+console.log(myn2);
