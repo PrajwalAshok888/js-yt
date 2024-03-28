@@ -2,8 +2,9 @@
 //object constructor
 // Object.create(JsUser)
 
-const mySymbol = Symbol("Key1")
+
 //object literals
+const mySymbol = Symbol("Key1")
 const JsUser={
     name:"Prajwal A",
     age:22,
