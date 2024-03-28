@@ -30,16 +30,24 @@ JsUser.lastName="B"
 JsUser["mother name"]="shantala"
 // console.log(JsUser);
 //add function to same object
-JsUser.greetings=function(){
-    JsUser["Father name"]="Ashok"
-    console.log('Hello world')
-}
-console.log(JsUser.greetings())//always use . to access functions from objects
+// JsUser.greetings=function(){
+//     JsUser["Father name"]="Ashok"
+//     console.log('Hello world')
+// }
+// console.log(JsUser.greetings())//always use . to access functions from objects
 
 //using this keyword
-JsUser.greetings2=function(){
-    console.log(`Hello world, ${this.name}`)
-}
-console.log(JsUser.greetings2())
+// JsUser.greetings2=function(){
+//     console.log(`Hello world, ${this.name}`)
+// }
+// console.log(JsUser.greetings2())
 // Object.freeze(JsUser)
+console.log(JsUser);
+//adding symbols in other way
+const mySymbol2=Symbol("key2")
+JsUser[mySymbol2]="World"
+console.log(JsUser);
+
+const Array=[1,2,3,4]
+JsUser.myArray=Array
 console.log(JsUser);
