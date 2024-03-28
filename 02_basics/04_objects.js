@@ -57,10 +57,44 @@ const tinderUser = {}
 tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
 tinderUser.isLoggedIn = false
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));//checks if this key is there in object
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));//checks if this key is there in object
+// ===========================================
+
+
+// object destructuring
+
+const onjName1={
+    name:"Prajwal",
+    usn:"1VI20IS064"
+}
+
+onjName1.name//normal method to access the members in object
+
+const {name} = onjName1
+const {name:na} = onjName1//using alias for short
+
+console.log(name);//using destructed method
+console.log(na);//same output
+//this type of destructuring is useful in react 
+
+
+// ==========
+// API which u wont understand now
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
