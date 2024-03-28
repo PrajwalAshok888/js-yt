@@ -16,21 +16,22 @@ const JsUser={
 // console.log(JsUser);
 // console.log(JsUser["age"]);
 // console.log(JsUser["daysActive"][2]);
-// console.log(JsUser["First name"]);
-// console.log(JsUser[mySymbol]);
+// console.log(JsUser["First name"]);//there is no other way to access these
+// console.log(JsUser[mySymbol]);//there is no other way to access these
 
-JsUser["name"]="Tushar"
+JsUser["name"]="Tushar"//canged the value of name key in object
 // console.log(JsUser);
-// Object.freeze(JsUser)
-JsUser["name"]="Prajwal A"
+// Object.freeze(JsUser)//does not allow any changes
+JsUser["name"]="Prajwal A"//changed it back to original
 // console.log(JsUser);
 
 //other way to add members to objects
-JsUser.lastName="A"
-console.log(JsUser);
-
+JsUser.lastName="B"
+JsUser["mother name"]="shantala"
+// console.log(JsUser);
 //add function to same object
 JsUser.greetings=function(){
+    JsUser["Father name"]="Ashok"
     console.log('Hello world')
 }
 console.log(JsUser.greetings())//always use . to access functions from objects
@@ -40,4 +41,5 @@ JsUser.greetings2=function(){
     console.log(`Hello world, ${this.name}`)
 }
 console.log(JsUser.greetings2())
-Object.freeze(JsUser)
+// Object.freeze(JsUser)
+console.log(JsUser);
