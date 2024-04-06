@@ -8,7 +8,7 @@ const user={
     }
 }
 // user.welcomemessage();
-//trying to refer this inside a function itself
+//trying to refer this inside a function itself,you cant
 // const user={
 //     username:"prajwal",
 //     age:22,
@@ -30,13 +30,14 @@ const user={
 //=================Arrow functions
 // const chai=function(){
 //     let username="Prajwal"
-//     console.log(this.username);
+//     console.log(username);
 // }
+// chai()
 const chai=()=>{
     let username="Prajwal"
-    console.log(this);
+    console.log(username);
 }
-// chai()
+chai()
 //===============implicit return concept
 // const addNum=(num1,num2)=>{
 //     return num1+num2
@@ -48,7 +49,4 @@ const chai=()=>{
 
 //to return abject in the similar manner
 const addNum=(num1,num2)=>({name:"Prajwal"})
-console.log(addNum(2,3))
-// example of arrow functions
-// const myArray=[2,3,4,5]
-// myArray.forEach(()=>{})
+// console.log(addNum(2,3))
