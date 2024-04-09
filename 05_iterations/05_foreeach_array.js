@@ -43,5 +43,5 @@ const myARR=[{
 }]
 
 myARR.forEach( (item)=>{
-    // console.log(item.codeName);
+    // console.log(item.codeName)
 } )
