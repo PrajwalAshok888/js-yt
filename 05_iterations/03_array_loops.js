@@ -1,7 +1,7 @@
 // for of
 const array=[1,2,3,4,5,"Prajwal",{firstName:"Prajwal",lastName:"A"}]
 for (const i of array) {
-    // console.log(i);
+    console.log(i);
 }
 // regular for
 // for (let index = 0; index < array.length; index++) {
@@ -31,12 +31,12 @@ map.set("UN","United Nations")//This will not print becuse everyhing is same as 
 map.set("FR","France")
 map.set("FR","France1")//this will print even though the key name is same becuase of the order and the value is different
 map.set("FRR","France1")//this will also print because key is different even if the value is same
-console.log(map);
+// console.log(map);
 
 
 // simple for of for maps
 for (const iterator of map) {
-    console.log(iterator);
+    // console.log(iterator);
 }
 //for offor separate key and value
 for (const [i,j] of map) {
