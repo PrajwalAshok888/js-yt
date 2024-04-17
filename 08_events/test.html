@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Timestamp Example</title>
+</head>
+<body>
+  <button onclick="showEventTimestamp(event)">Click Me</button>
+  <script>
+    function showEventTimestamp(event) {
+
+        console.log(event.timeStamp)
+        const currentTimestamp = Date.now();
+        console.log("Current timestamp:", currentTimestamp);
+
+    }
+  </script>
+</body>
+</html>
