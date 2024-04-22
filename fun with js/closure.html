@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="orange">Orange</button>
+    <button id="green">Green</button>
+    
+</body>
+<script>
+    // document.getElementById("orange").addEventListener('click',()=>{
+    //     document.body.style.backgroundColor='orange'
+    // })
+    // document.getElementById("green").onclick=()=>{
+    //     document.body.style.backgroundColor='green'
+    // }
+    //this is not possible if there are more thean 10 buttons so we write a function to access closure property
+
+
+        function colorClick(color){
+            // document.body.style.backgroundColor=`${color}`
+
+            return function(){
+                document.body.style.backgroundColor=`${color}`
+            }
+
+        }
+        document.getElementById('orange').onclick=colorClick("orange")
+        document.getElementById('green').onclick=colorClick("green")
+
+//thi is where the closure property works as it retured the function itself
+</script>
+</html>
